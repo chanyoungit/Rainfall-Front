@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# FrontEndA
+# FrontEnd
 =======
 # Getting Started with Create React App
 
