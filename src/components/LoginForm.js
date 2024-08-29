@@ -16,7 +16,7 @@ const LoginForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://43.200.165.138:8080/login', formData);
+      const response = await axios.post('http://3.36.227.72:8080/login', formData);
 
       // 헤더에서 토큰을 추출
       const token = response.headers['authorization'];

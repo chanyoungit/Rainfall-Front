@@ -29,7 +29,7 @@ const SignUp = () => {
     e.preventDefault();
     if (passwordMatch) {
       try {
-        const response = await axios.post('http://43.200.165.138:8080/join', formData);
+        const response = await axios.post('http://3.36.227.72:8080/join', formData);
         if (response.data === 'ok') {
           alert('회원 가입이 완료되었습니다!');
           navigate('/'); // 메인 페이지로 리디렉션
